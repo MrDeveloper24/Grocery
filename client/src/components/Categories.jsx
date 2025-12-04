@@ -1,6 +1,5 @@
 import React from "react";
 import { categories } from "../assets/assets";
-import { useAppContext } from "../context/AppContext";
 import { useNavigate } from "react-router-dom";
 
 const Categories = () => {

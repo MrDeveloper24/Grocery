@@ -9,7 +9,6 @@ import AllProducts from "./pages/AllProducts";
 import ProductCategory from "./pages/ProductCategory";
 import ProductDetails from "./pages/ProductDetails";
 import Cart from "./pages/Cart";
-import { useAppContext } from "./context/appContext";
 import AddAddress from "./pages/AddAddress";
 import MyOrders from "./pages/MyOrders";
 import Contact from "./pages/Contact";
@@ -19,6 +18,7 @@ import AddProduct from "./pages/seller/AddProduct";
 import ProductList from "./pages/seller/ProductList";
 import Orders from "./pages/seller/Orders";
 import Loading from "./components/Loading";
+import { useAppContext } from "./context/AppContext";
 
 const App = () => {
   const isSellerPath = useLocation().pathname.includes("seller");
